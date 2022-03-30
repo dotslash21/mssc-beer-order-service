@@ -15,7 +15,6 @@ import java.util.UUID;
 @Setter
 @ToString
 @NoArgsConstructor
-@RequiredArgsConstructor
 @Entity
 public class Customer extends BaseEntity {
 

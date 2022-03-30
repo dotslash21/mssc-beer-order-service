@@ -18,7 +18,6 @@ import java.util.UUID;
 @Setter
 @ToString
 @NoArgsConstructor
-@RequiredArgsConstructor
 @Entity
 public class BeerOrder extends BaseEntity {
 
