@@ -64,6 +64,9 @@ public class TastingRoomService {
                 .build();
 
         BeerOrderDto savedOrder = beerOrderService.placeOrder(customer.getId(), beerOrderDto);
+
+        log.info("Tasting room order placed for customer id: {} with order id: {}",
+                customer.getId(), savedOrder.getId());
     }
 
     private String getRandomBeerUpc() {
